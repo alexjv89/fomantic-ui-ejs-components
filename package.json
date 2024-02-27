@@ -1,0 +1,12 @@
+{
+  "name": "fomantic-ui-ejs-components",
+  "version": "1.0.0",
+  "description": "UI components build using fomantic ui and ejs",
+  "main": "index.js",
+  "scripts": {
+    "storybook":"node .storybook/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

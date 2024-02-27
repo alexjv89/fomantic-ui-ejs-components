@@ -1,0 +1,19 @@
+<table class="ui very basic table">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Status</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<%rows.forEach(function(row){%>
+		<tr>
+			<td><%=row.name%></td>
+			<td><%=row.status%></td>
+			<td><%=row.notes%></td>
+			
+		</tr>
+		<%})%>
+	</tbody>
+</table>
